@@ -251,10 +251,8 @@ Class weight를 적용하면 소수 클래스 보정에는 도움이 될 수 있
 모델은 세 클래스 모두에서 비교적 균형 잡힌 성능을 보였습니다.  
 특히 `Poor`와 `Standard` 클래스는 F1-score가 0.81 수준으로 나타났고, `Good` 클래스도 recall이 0.83으로 양호했습니다.
 
-```markdown
-![confusion_matrix]<img width="1183" height="384" alt="valid" src="https://github.com/user-attachments/assets/3e60da5d-21d0-4081-ac44-cb7a02481aee" />
+<img width="534" height="476" alt="c" src="https://github.com/user-attachments/assets/30a1bc76-4550-48df-92a9-2cb6bce3e036" />
 
-```
 
 ---
 
