@@ -117,7 +117,7 @@ EDA에서는 타깃 분포, 주요 수치형 변수의 통계량, `Credit_Score`
 따라서 Accuracy만으로 모델을 평가하면 소수 클래스 성능이 가려질 수 있으므로 Macro F1-score도 함께 확인했습니다.
 
 ```markdown
-![target_distribution]<img width="597" height="460" alt="eda1" src="https://github.com/user-attachments/assets/716c0130-5d69-49d2-9cf1-fca6a8cb0b12" />
+<img width="597" height="460" alt="eda1" src="https://github.com/user-attachments/assets/716c0130-5d69-49d2-9cf1-fca6a8cb0b12" />
 
 ```
 
