@@ -133,7 +133,7 @@ EDA 결과 다음 변수들이 신용 점수 등급 차이를 설명하는 데 �
 일반적으로 미지급 부채, 이자율, 연체 일수가 높을수록 `Poor` 등급으로 분류될 가능성이 커졌고, 신용 이력이 길수록 `Good` 등급과 관련성이 높은 경향을 보였습니다.
 
 
-![eda_numeric_mean]<img width="1384" height="716" alt="eda2" src="https://github.com/user-attachments/assets/2fb0d69b-8bae-47a9-9bb5-61417227d397" />
+<img width="1384" height="716" alt="eda2" src="https://github.com/user-attachments/assets/2fb0d69b-8bae-47a9-9bb5-61417227d397" />
 
 
 ### 5.3 상관관계 분석
@@ -141,7 +141,7 @@ EDA 결과 다음 변수들이 신용 점수 등급 차이를 설명하는 데 �
 수치형 변수 간 상관관계를 확인하여 중복 정보가 강한 변수와 신용 점수 분류에 영향을 줄 수 있는 변수를 파악했습니다.
 
 
-![correlation_heatmap]
+
 <img width="705" height="614" alt="eda3" src="https://github.com/user-attachments/assets/1ee7913e-63b5-4d1a-b386-66c205002a0a" />
 
 
@@ -164,7 +164,7 @@ EDA 결과 다음 변수들이 신용 점수 등급 차이를 설명하는 데 �
 최종적으로 중요도 기준 상위 50개 피처를 선택하여 MLP 모델의 입력으로 사용했습니다.
 
 
-![feature_importance]<img width="884" height="684" alt="feature" src="https://github.com/user-attachments/assets/7a8b304a-2ca9-4615-9ea6-a1d4c17945bc" />
+<img width="884" height="684" alt="feature" src="https://github.com/user-attachments/assets/7a8b304a-2ca9-4615-9ea6-a1d4c17945bc" />
 
 
 
@@ -240,7 +240,8 @@ Class weight를 적용하면 소수 클래스 보정에는 도움이 될 수 있
 따라서 60 epoch 기준으로 심한 과적합은 나타나지 않았다고 판단했습니다.
 
 
-![training_curve](images/training_curve.png)
+<img width="1183" height="384" alt="valid" src="https://github.com/user-attachments/assets/1148b47b-c32b-4f44-b672-715575972c64" />
+
 
 
 ---
